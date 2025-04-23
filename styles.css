@@ -130,11 +130,11 @@ button {
 
 .quote {
     background-color: #e5e7eb;
-    font-size: 24px;
+    font-size: 36px;
     font-style: italic;
     font-weight: 300;
     color: #1f2937;
-    line-height: 1.6;
+    /* line-height: 1.6; */
     margin: 50px auto;
     padding: 60px 100px;
 }
@@ -142,6 +142,7 @@ button {
 .quote p {
     margin: 0;
     text-align: left;
+    padding: 0 100px;
 }
 
 .quote .albus {
@@ -150,6 +151,24 @@ button {
     font-weight: bold;
     text-align: right;
     margin-top: 20px;
+}
+
+.action {
+    background: #3882f6;
+    color: #fff;
+    margin: 100px;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.action-words {
+    color: #e5e7eb;
+}
+
+.action button {
+    border: 1px solid white;
 }
 
 .footer {

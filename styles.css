@@ -158,7 +158,7 @@ button {
     color: #fff;
     margin: 100px;
     border-radius: 10px;
-    padding: 30px;
+    padding: 40px;
     display: flex;
     justify-content: space-around;
 }
@@ -174,4 +174,7 @@ button {
 .footer {
     background: #1f2937;
     color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px 100px;
 }
